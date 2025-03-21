@@ -1,0 +1,138 @@
+/* style2.css */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin: 0;
+    background-color: white;
+}
+
+#i1 {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33.3%;
+    background-color: rgb(5, 54, 57);
+    gap: 5px;
+}
+
+.text {
+    align-self: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 
+        3px 3px 5px #f7c8c8,  /* Roz deschis */
+        -3px -3px 5px #c8f7d8, /* Verde deschis */
+        2px -2px 5px #c8d8f7; /* Albastru deschis */
+}
+
+#img1-1 {
+    max-width: 200px;
+    height: auto; 
+    align-items: left;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+#img1-2 {
+    max-width: 125px;
+    height: auto; 
+    align-items: right;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+#i2 {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 20%;
+    height: 33.3%;
+    background-color: rgb(91, 67, 17);
+}
+
+.buton {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: aqua;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.buton_1 {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: aqua;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: left;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.buton:hover{
+    background-color: gray;
+    color: red;
+}
+
+.buton_1:hover{
+    background-color: gray;
+    color: red;
+}
+
+#i3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 33.3%;
+    background-color: rgb(51, 255, 0);
+}
+
+#i4 {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 33.3%;
+    background-color: rgb(83, 21, 10);
+}
+
+#i5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 33.3%;
+    background-color: rgb(62, 10, 60);
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row; /* Arrange buttons in a row */
+    gap: 10px; /* Add spacing between buttons */
+    margin-top: 10px; /* Space between text and buttons */
+}
